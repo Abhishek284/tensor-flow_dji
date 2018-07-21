@@ -1,6 +1,7 @@
 package drone;
 
 import android.app.Activity;
+import android.graphics.Bitmap;
 import android.graphics.SurfaceTexture;
 import android.os.Bundle;
 import android.os.Handler;
@@ -34,7 +35,7 @@ import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.sdk.useraccount.UserAccountManager;
 
-public class MainActivity extends Activity implements SurfaceTextureListener, OnClickListener {
+public abstract class MainActivity extends Activity implements SurfaceTextureListener, OnClickListener {
 
     private static final String TAG = MainActivity.class.getName();
     protected VideoFeeder.VideoDataCallback mReceivedVideoDataCallBack = null;
@@ -48,13 +49,13 @@ public class MainActivity extends Activity implements SurfaceTextureListener, On
     private TextView recordingTime;
 
     private Handler handler;
+    private boolean isProcessingFrame;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         handler = new Handler();
 
         initUI();
@@ -66,6 +67,7 @@ public class MainActivity extends Activity implements SurfaceTextureListener, On
             public void onReceive(byte[] videoBuffer, int size) {
                 if (mCodecManager != null) {
                     mCodecManager.sendDataToDecoder(videoBuffer, size);
+                    onGettingBitmap(mVideoSurface.getBitmap());
 //                    convertBytesToFile(videoBuffer);
 //                    showToast(String.valueOf(size));
                 }
@@ -410,4 +412,7 @@ public class MainActivity extends Activity implements SurfaceTextureListener, On
         }
 
     }
+
+    protected abstract void onGettingBitmap(Bitmap bitmap);
+
 }

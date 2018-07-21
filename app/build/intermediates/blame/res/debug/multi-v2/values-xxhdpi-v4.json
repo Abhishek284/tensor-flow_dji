@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "outputFile": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "source": "/home/ankitkaneri/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/42c1bc2b9c959ed201cf5e2512d80b24/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

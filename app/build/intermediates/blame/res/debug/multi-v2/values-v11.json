@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/values-v11/styles.xml",
-                    "from": {
-                        "startLines": "7,19,11",
-                        "startColumns": "2,2,2",
-                        "startOffsets": "210,763,340",
-                        "endLines": "9,21,17",
-                        "endColumns": "10,10,10",
-                        "endOffsets": "336,927,759"
-                    },
-                    "to": {
-                        "startLines": "2,57,60",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,3990,4159",
-                        "endLines": "4,59,66",
-                        "endColumns": "10,10,10",
-                        "endOffsets": "181,4154,4578"
-                    }
-                },
-                {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-v11/values-v11.xml",
+                    "source": "/home/ankitkaneri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/c79b7925466fb59de75676d942a7ae92/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,40,45,50,52,54,55,56,107,159",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/values-v11/template-styles.xml",
+                    "source": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "7,19,11",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "210,763,340",
+                        "endLines": "9,21,17",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "336,927,759"
+                    },
+                    "to": {
+                        "startLines": "2,57,60",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,3990,4159",
+                        "endLines": "4,59,66",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "181,4154,4578"
+                    }
+                },
+                {
+                    "source": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/src/main/res/values-v11/template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",

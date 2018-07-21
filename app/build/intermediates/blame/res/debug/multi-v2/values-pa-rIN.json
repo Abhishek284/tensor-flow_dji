@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa-rIN/values-pa-rIN.xml",
+            "outputFile": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa-rIN/values-pa-rIN.xml",
             "map": [
                 {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-pa-rIN/values-pa-rIN.xml",
+                    "source": "/home/ankitkaneri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/c79b7925466fb59de75676d942a7ae92/res/values-pa-rIN/values-pa-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

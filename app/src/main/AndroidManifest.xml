@@ -33,6 +33,24 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@style/MaterialTheme">
 
+        <uses-library android:name="com.android.future.usb.accessory" />
+        <meta-data
+            android:name="com.dji.sdk.API_KEY"
+            android:value="cb98536e3edaeff1c0f542a6" />
+
+        <activity
+            android:name="dji.sdk.sdkmanager.DJIAoaControllerActivity"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter" />
+        </activity>
+        <service android:name="dji.sdk.sdkmanager.DJIGlobalService" >
+        </service>
         <activity android:name="org.tensorflow.demo.ClassifierActivity"
                   android:screenOrientation="portrait"
                   android:label="@string/activity_name_classification">
@@ -42,7 +60,7 @@
             <!--</intent-filter>-->
         </activity>
 
-        <activity android:name="org.tensorflow.demo.DetectorActivity"
+        <activity android:name="drone.ConnectionActivity"
                   android:screenOrientation="portrait"
                   android:label="@string/activity_name_detection">
             <intent-filter>
@@ -50,6 +68,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="drone.TestActivity"/>
 
         <activity android:name="org.tensorflow.demo.SpeechActivity"
             android:screenOrientation="portrait"

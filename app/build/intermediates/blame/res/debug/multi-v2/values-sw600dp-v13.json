@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/d512cc9e848d7d6516296b1e09f3685b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/ankitkaneri/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/c79b7925466fb59de75676d942a7ae92/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,542",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,592"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,19",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,1237",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,1287"
+                    }
+                },
+                {
+                    "source": "/home/ankitkaneri/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/82bec5dbc20177167abf2f3edc1618a0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,41 +40,7 @@
                     }
                 },
                 {
-                    "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/values-sw600dp/template-dimens.xml",
-                    "from": {
-                        "startLines": "20,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "669,737",
-                        "endColumns": "67,67",
-                        "endOffsets": "732,800"
-                    },
-                    "to": {
-                        "startLines": "17,18",
-                        "startColumns": "4,4",
-                        "startOffsets": "1101,1169",
-                        "endColumns": "67,67",
-                        "endOffsets": "1164,1232"
-                    }
-                },
-                {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,194,268,344,403,474,542",
-                        "endColumns": "68,69,73,75,58,70,67,54",
-                        "endOffsets": "119,189,263,339,398,469,537,592"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,19",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,194,268,344,403,474,1237",
-                        "endColumns": "68,69,73,75,58,70,67,54",
-                        "endOffsets": "119,189,263,339,398,469,537,1287"
-                    }
-                },
-                {
-                    "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/values-sw600dp/template-styles.xml",
+                    "source": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/src/main/res/values-sw600dp/template-styles.xml",
                     "from": {
                         "startLines": "18",
                         "startColumns": "4",
@@ -73,6 +56,23 @@
                         "endLines": "29",
                         "endColumns": "12",
                         "endOffsets": "1777"
+                    }
+                },
+                {
+                    "source": "/home/ankitkaneri/projects/hackathon/rescuer-android/app/src/main/res/values-sw600dp/template-dimens.xml",
+                    "from": {
+                        "startLines": "20,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "669,737",
+                        "endColumns": "67,67",
+                        "endOffsets": "732,800"
+                    },
+                    "to": {
+                        "startLines": "17,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "1101,1169",
+                        "endColumns": "67,67",
+                        "endOffsets": "1164,1232"
                     }
                 }
             ]
