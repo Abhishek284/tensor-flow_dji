@@ -1,0 +1,8 @@
+
+squid:S1450"eRemove the "mDJISDKManagerCallback" field and declare it as a local variable in the relevant methods.(¨ô³ùûÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(áƒäß
+€"squid:ClassVariableVisibilityCheck"TMake mHandler a static final constant or non-public and provide accessors if needed.(ëÖáÈ
+<squid:S1604"(Make this anonymous inner class a lambda(ç’ƒL
+<squid:S1604"(Make this anonymous inner class a lambda(ç’ƒL
+Bsquid:S1604"(Make this anonymous inner class a lambda(äÎÒèùÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¬åìÿÿÿÿÿ

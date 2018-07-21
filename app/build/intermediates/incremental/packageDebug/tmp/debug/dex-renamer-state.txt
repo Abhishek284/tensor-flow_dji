@@ -1,0 +1,7 @@
+#Sat Jul 21 08:59:08 IST 2018
+base.0=/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/2
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/1

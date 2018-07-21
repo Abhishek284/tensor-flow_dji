@@ -1,0 +1,6 @@
+
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾³¿£üÿÿÿÿ
+xsquid:S1450"cRemove the "cropToFrameTransform" field and declare it as a local variable in the relevant methods.(õ¡þÂ
+<squid:S1604"(Make this anonymous inner class a lambda(‹ë¥Y
+Bsquid:S1604"(Make this anonymous inner class a lambda(Ã®­Šùÿÿÿÿ
+squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ
