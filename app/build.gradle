@@ -4,6 +4,9 @@ android {
     compileSdkVersion 23
     buildToolsVersion '27.0.3'
     defaultConfig {
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
         applicationId "org.tensorflow.lite.demo"
         minSdkVersion 19
         targetSdkVersion 23
@@ -15,6 +18,7 @@ android {
 //        jackOptions {
 //            enabled true
 //        }
+
     }
     lintOptions {
         abortOnError false
@@ -33,7 +37,9 @@ android {
 //        sourceCompatibility JavaVersion.VERSION_1_8
 //        targetCompatibility JavaVersion.VERSION_1_8
 //    }
-
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
     packagingOptions{
         doNotStrip "*/*/libdjivideo.so"
         doNotStrip "*/*/libSDKRelativeJNI.so"

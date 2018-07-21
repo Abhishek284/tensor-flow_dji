@@ -16,12 +16,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import org.tensorflow.demo.CameraActivity;
 import org.tensorflow.lite.demo.R;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import dji.common.camera.SettingsDefinitions;
 import dji.common.camera.SystemState;
@@ -50,6 +51,21 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
 
     private Handler handler;
     private boolean isProcessingFrame;
+    private Bitmap myBitmap;
+    TimerTask timerTask = new TimerTask() {
+        @Override
+        public void run() {
+            if (mVideoSurface != null) {
+                myBitmap = mVideoSurface.getBitmap();
+                if (myBitmap != null) {
+                    onGettingBitmap(myBitmap);
+                }
+//                processBitmap();
+            }
+        }
+    };
+    private Timer timer = null;
+    private byte[][] yuvBytes = new byte[3][];
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -63,6 +79,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
         setContentView(R.layout.activity_main);
 
         handler = new Handler();
+        timer = new Timer();
 
         initUI();
 
@@ -73,7 +90,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
             public void onReceive(byte[] videoBuffer, int size) {
                 if (mCodecManager != null) {
                     mCodecManager.sendDataToDecoder(videoBuffer, size);
-                    onGettingBitmap(mVideoSurface.getBitmap());
+                    yuvBytes[0] = videoBuffer;
 //                    convertBytesToFile(videoBuffer);
 //                    showToast(String.valueOf(size));
                 }
@@ -160,7 +177,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
 
     protected void onProductChange() {
         initPreviewer();
-        loginAccount();
+//        loginAccount();
     }
 
     private void loginAccount() {
@@ -185,6 +202,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
         Log.e(TAG, "onResume");
         super.onResume();
         initPreviewer();
+        timer.schedule(timerTask, 0, 600);
         onProductChange();
 
         if (mVideoSurface == null) {
@@ -279,6 +297,8 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
         Log.e(TAG, "onSurfaceTextureAvailable");
         if (mCodecManager == null) {
             mCodecManager = new DJICodecManager(this, surface, width, height);
+            onPrepared(width,height);
+
         }
     }
 
@@ -420,5 +440,10 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
     }
 
     protected abstract void onGettingBitmap(Bitmap bitmap);
+    protected abstract void onPrepared(int width, int height);
+
+    protected byte[] getLuminance() {
+        return yuvBytes[0];
+    }
 
 }

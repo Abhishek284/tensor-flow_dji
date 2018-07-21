@@ -298,4 +298,5 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
   public void onSetDebug(final boolean debug) {
     detector.enableStatLogging(debug);
   }
+
 }

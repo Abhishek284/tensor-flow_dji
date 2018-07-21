@@ -181,7 +181,7 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
         mBtnOpen.setOnClickListener(this);
         mBtnOpen.setEnabled(false);
         mVersionTv = (TextView) findViewById(R.id.textView2);
-        mVersionTv.setText(getResources().getString(R.string.sdk_version, DJISDKManager.getInstance().getSDKVersion()));
+//        mVersionTv.setText(getResources().getString(R.string.sdk_version, DJISDKManager.getInstance().getSDKVersion()));
     }
 
     protected BroadcastReceiver mReceiver = new BroadcastReceiver() {
