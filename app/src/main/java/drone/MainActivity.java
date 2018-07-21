@@ -55,7 +55,13 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
     protected void onCreate(final Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+
+        // Sets the default uncaught exception handler. This handler is invoked
+        // in case any Thread dies due to an unhandled exception.
+        Thread.setDefaultUncaughtExceptionHandler(new CustomizedExceptionHandler(
+                "/mnt/sdcard/"));
         setContentView(R.layout.activity_main);
+
         handler = new Handler();
 
         initUI();
