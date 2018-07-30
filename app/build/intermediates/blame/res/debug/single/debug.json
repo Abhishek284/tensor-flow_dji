@@ -44,28 +44,28 @@
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_selector_back_button.xml.flat",
-        "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/drawable/selector_back_button.xml"
-    },
-    {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/color/switch_thumb_material_dark.xml"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_selector_back_button.xml.flat",
+        "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/drawable/selector_back_button.xml"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_draw_route.png.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/drawable/draw_route.png"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_draw_route.png.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/drawable/draw_route.png"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -100,16 +100,16 @@
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_offline_map_back.png.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/drawable-xxhdpi-v4/offline_map_back.png"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/layout_offline_map_activity_dpad.xml.flat",
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/layout/offline_map_activity_dpad.xml"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_offline_map_back.png.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/drawable-xxhdpi-v4/offline_map_back.png"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -260,12 +260,12 @@
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/drawable/btn_lock_selector.xml"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_round_btn_disable.xml.flat",
-        "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/drawable/round_btn_disable.xml"
-    },
-    {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_round_btn_disable.xml.flat",
+        "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/drawable/round_btn_disable.xml"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -412,12 +412,12 @@
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/raw_iframe_1024x768_wm100.h264.flat",
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/raw/iframe_1024x768_wm100.h264"
+    },
+    {
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -456,16 +456,16 @@
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/anim/core_hyperspace_in.xml"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_radio_unchecked.png.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/drawable/radio_unchecked.png"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4_ic_launcher.png.flat",
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/mipmap-xxxhdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_radio_unchecked.png.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/drawable/radio_unchecked.png"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
@@ -480,12 +480,12 @@
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/d512cc9e848d7d6516296b1e09f3685b/res/layout/design_navigation_item.xml"
-    },
-    {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/design-23.4.0.aar/d512cc9e848d7d6516296b1e09f3685b/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
@@ -504,16 +504,16 @@
         "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/raw/fake_airmap.json"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable_round_btn_normal.xml.flat",
         "source": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/src/main/res/drawable/round_btn_normal.xml"
     },
     {
-        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
+        "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/raw_overexposure.png.flat",

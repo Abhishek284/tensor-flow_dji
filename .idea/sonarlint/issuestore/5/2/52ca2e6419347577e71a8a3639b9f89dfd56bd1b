@@ -1,21 +1,21 @@
 
-Vsquid:S2184"ACast one of the operands of this division operation to a "float".(¾°©Ø
-Vsquid:S2184"ACast one of the operands of this division operation to a "float".(¾°©Ø
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤È«“üÿÿÿÿ
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡êûşúÿÿÿÿ
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ŠŸìÿÿÿÿÿ
-nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø‘†
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾³¿£üÿÿÿÿ
-nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ğß
 ]squid:HiddenFieldCheck"=Rename "minScore" which hides the field declared at line 175.(‹‘Ù
-bsquid:HiddenFieldCheck"=Rename "maxScore" which hides the field declared at line 176.(šØ†‡şÿÿÿÿ
-Lsquid:S1135"2Complete the task associated to this TODO comment.(±€¸Œùÿÿÿÿ
-\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
-\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÌçƒÚ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤È«“üÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾³¿£üÿÿÿÿ
+zsquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¨ÀéÌ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ğß
 asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(êšê‡ûÿÿÿÿ
-ysquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Şà¸5
-zsquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¨ÀéÌ
-squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(…ÓÈªıÿÿÿÿ
 squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(±€¸Œùÿÿÿÿ
+bsquid:HiddenFieldCheck"=Rename "maxScore" which hides the field declared at line 176.(šØ†‡şÿÿÿÿ
+squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(…ÓÈªıÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ŠŸìÿÿÿÿÿ
+Vsquid:S2184"ACast one of the operands of this division operation to a "float".(¾°©Ø
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
 zsquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¨ÀéÌ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡êûşúÿÿÿÿ
+Vsquid:S2184"ACast one of the operands of this division operation to a "float".(¾°©Ø
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÌçƒÚ
 Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ıÒ®‘ûÿÿÿÿ
+ysquid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Şà¸5
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø‘†

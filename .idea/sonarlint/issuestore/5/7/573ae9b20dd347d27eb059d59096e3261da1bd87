@@ -1,0 +1,13 @@
+
+[squid:S1075"ARefactor your code to get this URI from a customizable parameter.(§¯Ú×şÿÿÿÿ
+[squid:S1075"ARefactor your code to get this URI from a customizable parameter.(ßäû¢ÿÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏõÂ«
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûŒ•…ıÿÿÿÿ
+nsquid:S1450"YRemove the "quitButton" field and declare it as a local variable in the relevant methods.(ıÆ‹é
+gsquid:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(Æ­¥„ùÿÿÿÿ
+asquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÇÀ÷ù
+@squid:S1905"&Remove this unnecessary cast to "int".(ñÿÔøÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¶ƒÈŸøÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Œó«¢ùÿÿÿÿ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ

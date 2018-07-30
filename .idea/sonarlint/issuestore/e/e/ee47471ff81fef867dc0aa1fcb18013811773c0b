@@ -1,0 +1,19 @@
+
+Tsquid:S3398"?Move this method into the anonymous class declared at line 156.(ÐÑëú
+Xsquid:S3398">Move this method into the anonymous class declared at line 91.(’‚ç„ûÿÿÿÿ
+`squid:S1192"KDefine a constant instead of duplicating this literal "Exception!" 5 times.(–©ñê
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü–þ•øÿÿÿÿ
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(³Ù­Ì
+Gsquid:S1135"2Complete the task associated to this TODO comment.(•›¦ê
+`squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(Ñ‘Åüÿÿÿÿ
+`squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(Ñ‘Åüÿÿÿÿ
+`squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(Ñ‘Åüÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(î²â½
+[squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯ÌÉ8
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Þ¥‹«
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¨åÖ¦
+–squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÔÔþ™
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê‰ç°ûÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÇƒŠ¹þÿÿÿÿ
+=squid:S1185"(Remove this method to simply inherit it.(ÇÙÈä
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(±à¦Žûÿÿÿÿ

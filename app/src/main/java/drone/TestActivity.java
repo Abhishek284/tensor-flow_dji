@@ -29,11 +29,8 @@ import android.os.SystemClock;
 import android.util.Size;
 import android.util.TypedValue;
 import android.view.Surface;
+import android.widget.TextView;
 import android.widget.Toast;
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Vector;
 
 import org.tensorflow.demo.Classifier;
 import org.tensorflow.demo.OverlayView;
@@ -44,12 +41,17 @@ import org.tensorflow.demo.env.Logger;
 import org.tensorflow.demo.tracking.MultiBoxTracker;
 import org.tensorflow.lite.demo.R;
 
+import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
+
 
 /**
  * An activity that uses a TensorFlowMultiBoxDetector and ObjectTracker to detect and then track
  * objects.
  */
-public class TestActivity extends MainActivity  {
+public class TestActivity extends MainActivity {
     private static final Logger LOGGER = new Logger();
 
     private static final TestActivity.DetectorMode MODE = TestActivity.DetectorMode.TF_OD_API;
@@ -95,17 +97,20 @@ public class TestActivity extends MainActivity  {
     private BorderedText borderedText;
     private int previewWidth;
     private int previewHeight;
+    private TextView textView1, textView2, textView3, textView4, textView5, textView6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        initText();
 
     }
 
     @Override
-    public void onPrepared(final int width, final int height){
+    public void onPrepared(final int width, final int height) {
         previewWidth = width;
         previewHeight = height;
+        tracker = new MultiBoxTracker(this);
         final float textSizePx =
                 TypedValue.applyDimension(
                         TypedValue.COMPLEX_UNIT_DIP, TEXT_SIZE_DIP, getResources().getDisplayMetrics());
@@ -131,7 +136,6 @@ public class TestActivity extends MainActivity  {
             finish();
         }
         sensorOrientation = 90 - getScreenOrientation();
-
 
 
         rgbFrameBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
@@ -161,14 +165,20 @@ public class TestActivity extends MainActivity  {
         drawRect(width, height);
     }
 
+    private void initText() {
+        textView1 = (TextView) findViewById(R.id.text1);
+        textView2 = (TextView) findViewById(R.id.text2);
+        textView3 = (TextView) findViewById(R.id.text11);
+        textView4 = (TextView) findViewById(R.id.text12);
+        textView5 = (TextView) findViewById(R.id.text13);
+        textView6 = (TextView) findViewById(R.id.text14);
+    }
+
     private void drawRect(final int width, final int height) {
         addCallback(
                 new OverlayView.DrawCallback() {
                     @Override
                     public void drawCallback(final Canvas canvas) {
-//                        if (!isDebug()) {
-//                            return;
-//                        }
                         final Bitmap copy = cropCopyBitmap;
                         if (copy == null) {
                             return;
@@ -208,7 +218,7 @@ public class TestActivity extends MainActivity  {
 
     @Override
     public void onGettingBitmap(Bitmap bitmap) {
-        if(croppedBitmap == null){
+        if (croppedBitmap == null) {
             return;
         }
         ++timestamp;
@@ -218,7 +228,7 @@ public class TestActivity extends MainActivity  {
 //        tracker.onFrame(
 //                previewWidth,
 //                previewHeight,
-//                getLuminanceStride(),
+//                previewWidth,
 //                sensorOrientation,
 //                originalLuminance,
 //                timestamp);
@@ -242,7 +252,7 @@ public class TestActivity extends MainActivity  {
 //
         final Canvas canvas = new Canvas(croppedBitmap);
         canvas.drawBitmap(bitmap, frameToCropTransform, null);
-        System.out.println(bitmap.getHeight()+"hfshfkshdfh");
+        System.out.println(bitmap.getHeight() + "hfshfkshdfh");
         runInBackground(
                 new Runnable() {
                     @Override
@@ -250,7 +260,8 @@ public class TestActivity extends MainActivity  {
                         final long startTime = SystemClock.uptimeMillis();
                         final List<Classifier.Recognition> results = detector.recognizeImage(croppedBitmap);
                         System.out.println(results);
-                        Toast.makeText(TestActivity.this, results.toString(), Toast.LENGTH_SHORT).show();
+
+//                        Toast.makeText(TestActivity.this, results.toString(), Toast.LENGTH_SHORT).show();
                         lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
 
                         cropCopyBitmap = Bitmap.createBitmap(croppedBitmap);
@@ -259,7 +270,17 @@ public class TestActivity extends MainActivity  {
                         paint.setColor(Color.RED);
                         paint.setStyle(Paint.Style.STROKE);
                         paint.setStrokeWidth(2.0f);
-
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                textView1.setText(results.get(0).getTitle());
+                                textView2.setText("" + results.get(0).getConfidence());
+                                textView3.setText(results.get(1).getTitle());
+                                textView4.setText("" + results.get(1).getConfidence());
+                                textView5.setText(results.get(2).getTitle());
+                                textView6.setText("" + results.get(2).getConfidence());
+                            }
+                        });
                         float minimumConfidence = MINIMUM_CONFIDENCE_TF_OD_API;
                         switch (MODE) {
                             case TF_OD_API:
@@ -273,7 +294,6 @@ public class TestActivity extends MainActivity  {
                             final RectF location = result.getLocation();
                             if (location != null && result.getConfidence() >= minimumConfidence) {
                                 canvas.drawRect(location, paint);
-
                                 cropToFrameTransform.mapRect(location);
                                 result.setLocation(location);
                                 mappedRecognitions.add(result);
@@ -286,7 +306,7 @@ public class TestActivity extends MainActivity  {
                         requestRender();
                         computingDetection = false;
                     }
-                    });
+                });
     }
 
 

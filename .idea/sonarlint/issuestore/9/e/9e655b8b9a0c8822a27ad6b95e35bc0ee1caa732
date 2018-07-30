@@ -1,0 +1,7 @@
+
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏõÂ«
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿÓ˜©ûÿÿÿÿ
+ssquid:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(øïêùÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(…¸Õ†
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı

@@ -1,0 +1,18 @@
+
+ksquid:UnusedPrivateMethod"<Remove this unused private "convertYUV420SPToRGB565" method.(Ï¸¨áøÿÿÿÿ8†úİàË,
+msquid:UnusedPrivateMethod">Remove this unused private "convertARGB8888ToYUV420SP" method.(ÄÒ¨Šüÿÿÿÿ8†úİàË,
+ksquid:UnusedPrivateMethod"<Remove this unused private "convertRGB565ToYUV420SP" method.( šåñÿÿÿÿÿ8†úİàË,
+ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ô×±üıÿÿÿÿ8†úİàË,
+jsquid:S4042"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8†úİàË,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ùí’°8†úİàË,
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ò’çÎ8†úİàË,
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã²ôıÿÿÿÿ8†úİàË,
+^squid:S00107"<Method has 9 parameters, which is greater than 7 authorized.(ÅÃÇ¼ûÿÿÿÿ8†úİàË,
+_squid:S00107"=Method has 10 parameters, which is greater than 7 authorized.(¼é éıÿÿÿÿ8†úİàË,
+`squid:S3358"DExtract this nested ternary operation into an independent statement.(Õšª—8†úİàË,
+esquid:S3358"DExtract this nested ternary operation into an independent statement.(Æ‚é¸şÿÿÿÿ8†úİàË,
+`squid:S3358"DExtract this nested ternary operation into an independent statement.(ôŞí8†úİàË,
+|squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§¨²×úÿÿÿÿ8†úİàË,
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡µ¾á8†úİàË,
+[
+squid:S899";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8†úİàË,

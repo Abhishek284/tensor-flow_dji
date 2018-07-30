@@ -1,10 +1,7 @@
 
-ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾³¿£üÿÿÿÿ
-nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§îú
-„squid:S4165"oRemove this useless assignment; "minimumConfidence" already holds the assigned value along all execution paths.(•¾ë
-`squid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(€ñÒë
-<squid:S1604"(Make this anonymous inner class a lambda(‹ë¥Y
-<squid:S1604"(Make this anonymous inner class a lambda(‹ë¥Y
-Bsquid:S1604"(Make this anonymous inner class a lambda(Ã®­Šùÿÿÿÿ
-squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ
-squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ
+‹squid:S4165"oRemove this useless assignment; "minimumConfidence" already holds the assigned value along all execution paths.(•¾ë8¯ŒåâË,
+gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(€ñÒë8¯ŒåâË,
+†squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ8¯ŒåâË,
+†squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ8¯ŒåâË,
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾³¿£üÿÿÿÿ8¯ŒåâË,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§îú8¯ŒåâË,

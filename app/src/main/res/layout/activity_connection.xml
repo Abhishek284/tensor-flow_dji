@@ -50,13 +50,14 @@
         android:layout_marginTop="430dp"
         android:text="@string/sdk_version"
         android:textSize="15dp"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="DJIFPVDemo"
+        android:text="ResQ"
         android:id="@+id/textView"
         android:layout_marginTop="58dp"
         android:textStyle="bold"

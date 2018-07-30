@@ -522,21 +522,6 @@
             ]
         },
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-h320dp-v13_values-h320dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-h320dp-v13/values-h320dp-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-az-rAZ_values-az-rAZ.arsc.flat",
             "map": [
                 {
@@ -547,6 +532,21 @@
                         "startOffsets": "55,153,261,384,483,593,681,788,902,983,1062,1147,1254,1361,1461,1570,1674,1784,1881",
                         "endColumns": "97,107,122,98,109,87,106,113,80,78,84,106,106,99,108,103,109,96,100",
                         "endOffsets": "148,256,379,478,588,676,783,897,978,1057,1142,1249,1356,1456,1565,1669,1779,1876,1977"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-h320dp-v13_values-h320dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-h320dp-v13/values-h320dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
                     }
                 }
             ]
@@ -567,21 +567,6 @@
             ]
         },
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-ko/values-ko.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,150,258,381,475,577,659,757,863,942,1018,1098,1196,1291,1386,1486,1582,1681,1796,1890",
-                        "endColumns": "94,107,122,93,101,81,97,105,78,75,79,97,94,94,99,95,98,114,93,100",
-                        "endOffsets": "145,253,376,470,572,654,752,858,937,1013,1093,1191,1286,1381,1481,1577,1676,1791,1885,1986"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-xxxhdpi-v4_values-xxxhdpi-v4.arsc.flat",
             "map": [
                 {
@@ -592,6 +577,21 @@
                         "startOffsets": "55,116",
                         "endColumns": "60,59",
                         "endOffsets": "111,171"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,258,381,475,577,659,757,863,942,1018,1098,1196,1291,1386,1486,1582,1681,1796,1890",
+                        "endColumns": "94,107,122,93,101,81,97,105,78,75,79,97,94,94,99,95,98,114,93,100",
+                        "endOffsets": "145,253,376,470,572,654,752,858,937,1013,1093,1191,1286,1381,1481,1577,1676,1791,1885,1986"
                     }
                 }
             ]
@@ -718,6 +718,21 @@
             ]
         },
         {
+            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-w640dp-v13_values-w640dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/values-w640dp-v13/values-w640dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,117,178,240,299",
+                        "endColumns": "61,60,61,58,53",
+                        "endOffsets": "112,173,235,294,348"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
             "map": [
                 {
@@ -778,21 +793,6 @@
             ]
         },
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-w640dp-v13_values-w640dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.5.1.aar/9bf4b97f370b4971da7988009c0f152e/res/values-w640dp-v13/values-w640dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,117,178,240,299",
-                        "endColumns": "61,60,61,58,53",
-                        "endOffsets": "112,173,235,294,348"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-v13_values-v13.arsc.flat",
             "map": [
                 {
@@ -808,21 +808,6 @@
             ]
         },
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-w720dp-v13_values-w720dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-w720dp-v13/values-w720dp-v13.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "76",
-                        "endOffsets": "127"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-pa-rIN_values-pa-rIN.arsc.flat",
             "map": [
                 {
@@ -833,6 +818,21 @@
                         "startOffsets": "55,161,269,392,497,602,688,788,901,978,1054,1133,1234,1335,1432,1541,1640,1750,1872,1972",
                         "endColumns": "105,107,122,104,104,85,99,112,76,75,78,100,100,96,108,98,109,121,99,100",
                         "endOffsets": "156,264,387,492,597,683,783,896,973,1049,1128,1229,1330,1427,1536,1635,1745,1867,1967,2068"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/res/merged/debug/values-w720dp-v13_values-w720dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-w720dp-v13/values-w720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
                     }
                 }
             ]

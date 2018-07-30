@@ -66,6 +66,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
     };
     private Timer timer = null;
     private byte[][] yuvBytes = new byte[3][];
+    private TextView textView1, textView2, textView3, textView4, textView5, textView6;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -202,7 +203,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
         Log.e(TAG, "onResume");
         super.onResume();
         initPreviewer();
-        timer.schedule(timerTask, 0, 600);
+        timer.schedule(timerTask, 0, 1000);
         onProductChange();
 
         if (mVideoSurface == null) {
@@ -297,7 +298,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
         Log.e(TAG, "onSurfaceTextureAvailable");
         if (mCodecManager == null) {
             mCodecManager = new DJICodecManager(this, surface, width, height);
-            onPrepared(width,height);
+            onPrepared(width, height);
 
         }
     }
@@ -440,6 +441,7 @@ public abstract class MainActivity extends Activity implements SurfaceTextureLis
     }
 
     protected abstract void onGettingBitmap(Bitmap bitmap);
+
     protected abstract void onPrepared(int width, int height);
 
     protected byte[] getLuminance() {
