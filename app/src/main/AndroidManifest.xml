@@ -72,7 +72,7 @@
         <service android:name="dji.sdk.sdkmanager.DJIGlobalService" >
         </service>
         <activity android:name="org.tensorflow.demo.ClassifierActivity"
-                  android:screenOrientation="portrait"
+                  android:screenOrientation="landscape"
                   android:label="@string/activity_name_classification">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
@@ -81,7 +81,7 @@
         </activity>
 
         <activity android:name="drone.ConnectionActivity"
-                  android:screenOrientation="portrait">
+                  android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -91,7 +91,7 @@
         <!--<activity android:name="drone.TestActivity"/>-->
 
         <activity android:name="org.tensorflow.demo.SpeechActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="landscape"
             android:label="@string/activity_name_speech">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->

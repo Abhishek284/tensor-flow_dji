@@ -63,7 +63,7 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        checkAndRequestPermissions();
+//        checkAndRequestPermissions();
         setContentView(R.layout.activity_connection);
 
         initUI();

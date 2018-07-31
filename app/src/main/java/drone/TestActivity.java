@@ -135,7 +135,7 @@ public class TestActivity extends MainActivity {
             toast.show();
             finish();
         }
-        sensorOrientation = 90 - getScreenOrientation();
+        sensorOrientation = getScreenOrientation();
 
 
         rgbFrameBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);

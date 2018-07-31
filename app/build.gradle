@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 26
+    buildToolsVersion '27.0.2'
     defaultConfig {
         ndk {
-            abiFilters 'armeabi-v7a'
+//            abiFilters 'armeabi-v7a'
         }
         applicationId "org.tensorflow.lite.demo"
-        minSdkVersion 19
-        targetSdkVersion 23
+        minSdkVersion 22
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -37,9 +37,6 @@ android {
 //        sourceCompatibility JavaVersion.VERSION_1_8
 //        targetCompatibility JavaVersion.VERSION_1_8
 //    }
-    packagingOptions {
-        exclude 'META-INF/rxjava.properties'
-    }
     packagingOptions{
         doNotStrip "*/*/libdjivideo.so"
         doNotStrip "*/*/libSDKRelativeJNI.so"
@@ -50,8 +47,6 @@ android {
         doNotStrip "*/*/libFRCorkscrew.so"
         doNotStrip "*/*/libUpgradeVerify.so"
         doNotStrip "*/*/libFR.so"
-    }
-    packagingOptions {
         exclude 'META-INF/rxjava.properties'
     }
 }
