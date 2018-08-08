@@ -1,39 +1,39 @@
 
-Xsquid:S1068"7Remove this unused "SAVE_PREVIEW_BITMAP" private field.(ØİÏğıÿÿÿÿ8­«äË,
-Hsquid:S1659"'Declare "textView5" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
-wsquid:S1450"[Remove the "previewWidth" field and declare it as a local variable in the relevant methods.(•£³8®«äË,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ü³º8®«äË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼®øÎùÿÿÿÿ8®«äË,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÃçÕ‚8®«äË,
-}squid:S1450"\Remove the "previewHeight" field and declare it as a local variable in the relevant methods.(«§á·ıÿÿÿÿ8®«äË,
-Hsquid:S1659"'Declare "textView2" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§îú8­«äË,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ğ÷†T8®«äË,
-Ssquid:S1481"2Remove this unused "currTimestamp" local variable.(¹‚¾ƒÿÿÿÿÿ8®«äË,
-†squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ8®«äË,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ËÛÁ¯8®«äË,
-Hsquid:S1659"'Declare "textView6" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€ğüÊıÿÿÿÿ8®«äË,
-Hsquid:S1659"'Declare "textView3" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
-Msquid:S1068"1Remove this unused "luminanceCopy" private field.(è«“È8­«äË,
-†squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ8®«äË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ö²×úıÿÿÿÿ8®«äË,
-Rsquid:S1068"6Remove this unused "computingDetection" private field.(—ÿÅé8­«äË,
-Lsquid:S1068"0Remove this unused "previewWidth" private field.(•£³8­«äË,
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾³¿£üÿÿÿÿ8­«äË,
-bsquid:S1854"ARemove this useless assignment to local variable "currTimestamp".(¹‚¾ƒÿÿÿÿÿ8®«äË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßÚïœşÿÿÿÿ8®«äË,
-Tsquid:S1068"8Remove this unused "DESIRED_PREVIEW_SIZE" private field.(öá‡›8­«äË,
-gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(€ñÒë8®«äË,
-Nsquid:S1068"2Remove this unused "rgbFrameBitmap" private field.(ùí“í8­«äË,
-xsquid:S1450"\Remove the "handlerThread" field and declare it as a local variable in the relevant methods.(Ğûÿÿ8®«äË,
-ysquid:S1450"]Remove the "rgbFrameBitmap" field and declare it as a local variable in the relevant methods.(ùí“í8­«äË,
-‹squid:S4165"oRemove this useless assignment; "minimumConfidence" already holds the assigned value along all execution paths.(•¾ë8®«äË,
-Rsquid:S1068"1Remove this unused "previewHeight" private field.(«§á·ıÿÿÿÿ8­«äË,
-rsquid:S1450"VRemove the "tracker" field and declare it as a local variable in the relevant methods.(å—ğ8®«äË,
-Hsquid:S1659"'Declare "textView4" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
 Gsquid:S1068"+Remove this unused "tracker" private field.(å—ğ8­«äË,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â‚ô–8®«äË,
+Lsquid:S1068"0Remove this unused "previewWidth" private field.(•£³8­«äË,
+xsquid:S1450"\Remove the "handlerThread" field and declare it as a local variable in the relevant methods.(Ğûÿÿ8®«äË,
+Rsquid:S1068"1Remove this unused "previewHeight" private field.(«§á·ıÿÿÿÿ8­«äË,
+gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(€ñÒë8®«äË,
+Hsquid:S1659"'Declare "textView3" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
+Hsquid:S1659"'Declare "textView5" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
+Hsquid:S1659"'Declare "textView4" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
+Hsquid:S1659"'Declare "textView6" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
+ysquid:S1450"]Remove the "rgbFrameBitmap" field and declare it as a local variable in the relevant methods.(ùí“í8­«äË,
+}squid:S1450"\Remove the "previewHeight" field and declare it as a local variable in the relevant methods.(«§á·ıÿÿÿÿ8®«äË,
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(Œ•ˆ8®«äË,
+‹squid:S4165"oRemove this useless assignment; "minimumConfidence" already holds the assigned value along all execution paths.(•¾ë8®«äË,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ü³º8®«äË,
+bsquid:S1854"ARemove this useless assignment to local variable "currTimestamp".(¹‚¾ƒÿÿÿÿÿ8®«äË,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ËÛÁ¯8®«äË,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğ÷†T8®«äË,
+Xsquid:S1068"7Remove this unused "SAVE_PREVIEW_BITMAP" private field.(ØİÏğıÿÿÿÿ8­«äË,
+Msquid:S1068"1Remove this unused "luminanceCopy" private field.(è«“È8­«äË,
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾³¿£üÿÿÿÿ8­«äË,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÃçÕ‚8®«äË,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼®øÎùÿÿÿÿ8®«äË,
+Tsquid:S1068"8Remove this unused "DESIRED_PREVIEW_SIZE" private field.(öá‡›8­«äË,
+Ssquid:S1481"2Remove this unused "currTimestamp" local variable.(¹‚¾ƒÿÿÿÿÿ8®«äË,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€ğüÊıÿÿÿÿ8®«äË,
+rsquid:S1450"VRemove the "tracker" field and declare it as a local variable in the relevant methods.(å—ğ8®«äË,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ö²×úıÿÿÿÿ8®«äË,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â‚ô–8®«äË,
+wsquid:S1450"[Remove the "previewWidth" field and declare it as a local variable in the relevant methods.(•£³8®«äË,
+Hsquid:S1659"'Declare "textView2" on a separate line.(ñ²©ÿÿÿÿÿ8­«äË,
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§îú8­«äË,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßÚïœşÿÿÿÿ8®«äË,
+Nsquid:S1068"2Remove this unused "rgbFrameBitmap" private field.(ùí“í8­«äË,
+Rsquid:S1068"6Remove this unused "computingDetection" private field.(—ÿÅé8­«äË,
+†squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ8®«äË,
+†squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾³¿£üÿÿÿÿ8®«äË,

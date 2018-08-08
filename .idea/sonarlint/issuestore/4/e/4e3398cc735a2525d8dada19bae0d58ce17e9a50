@@ -1,35 +1,35 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(›ÚüÐüÿÿÿÿ8ðªÛãË,
-bsquid:S2259"AA "NullPointerException" could be thrown; "out" is nullable here.(Éç¸„ùÿÿÿÿ8ÝçãË,
-Hsquid:S1659"'Declare "textView5" on a separate line.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-Nsquid:S1068"-Remove this unused "textView4" private field.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-Isquid:S1199"-Extract this nested code block into a method.(ÆáØŽ8ÝçãË,
-}squid:S1450"aRemove the "mShootPhotoModeBtn" field and declare it as a local variable in the relevant methods.(â£ƒž8ðªÛãË,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÝçãË,
-Hsquid:S1659"'Declare "textView6" on a separate line.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-vsquid:S1450"ZRemove the "mCaptureBtn" field and declare it as a local variable in the relevant methods.(â£ƒž8ðªÛãË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åå¸Øÿÿÿÿÿ8ÝçãË,
-Lsquid:S1659"0Declare "mShootPhotoModeBtn" on a separate line.(â£ƒž8ðªÛãË,
-Zsquid:UnusedPrivateMethod"1Remove this unused private "loginAccount" method.(üØ™v8ÝçãË,
-zsquid:S1450"YRemove the "mRecordBtn" field and declare it as a local variable in the relevant methods.(Þ€‰üÿÿÿÿ8ðªÛãË,
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ïò±q8ÝçãË,
-Hsquid:S1659"'Declare "textView2" on a separate line.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-Nsquid:S1199"-Extract this nested code block into a method.(ØÕœÕýÿÿÿÿ8ÝçãË,
-Hsquid:S1659"'Declare "textView3" on a separate line.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-Nsquid:S1068"-Remove this unused "textView3" private field.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-Msquid:S1659"1Declare "mRecordVideoModeBtn" on a separate line.(â£ƒž8ðªÛãË,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßÛú“8ÝçãË,
-Nsquid:S1068"-Remove this unused "textView1" private field.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-Isquid:S1199"-Extract this nested code block into a method.(¿¨É8ÝçãË,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÝçãË,
-Nsquid:S1068"-Remove this unused "textView5" private field.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Å†áÈþÿÿÿÿ8ÝçãË,
-fsquid:UnusedPrivateMethod"7Remove this unused private "convertBytesToFile" method.(ÈÞýíøÿÿÿÿ8ÝçãË,
-Qsquid:S1068"5Remove this unused "isProcessingFrame" private field.(Í­µÏ8ðªÛãË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ÝçãË,
-Hsquid:S1659"'Declare "textView4" on a separate line.(ñ²©ÿÿÿÿÿ8ÚËèãË,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(°º”Æøÿÿÿÿ8ðªÛãË,
-Nsquid:S1068"-Remove this unused "textView6" private field.(ñ²©ÿÿÿÿÿ8î¶èãË,
-~squid:S1450"bRemove the "mRecordVideoModeBtn" field and declare it as a local variable in the relevant methods.(â£ƒž8ðªÛãË,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÝçãË,
-Nsquid:S1068"-Remove this unused "textView2" private field.(ñ²©ÿÿÿÿÿ8ÚËèãË,
+fsquid:UnusedPrivateMethod"7Remove this unused private "convertBytesToFile" method.(ÈÞýíøÿÿÿÿ8ÑíÄøÎ,
+Zsquid:UnusedPrivateMethod"1Remove this unused private "loginAccount" method.(üØ™v8ÑíÄøÎ,
+Lsquid:S1659"0Declare "mShootPhotoModeBtn" on a separate line.(â£ƒž8ÑíÄøÎ,
+Msquid:S1659"1Declare "mRecordVideoModeBtn" on a separate line.(â£ƒž8ÑíÄøÎ,
+Hsquid:S1659"'Declare "textView2" on a separate line.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Hsquid:S1659"'Declare "textView3" on a separate line.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Hsquid:S1659"'Declare "textView4" on a separate line.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Hsquid:S1659"'Declare "textView5" on a separate line.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Hsquid:S1659"'Declare "textView6" on a separate line.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Qsquid:S1068"5Remove this unused "isProcessingFrame" private field.(Í­µÏ8ÑíÄøÎ,
+Nsquid:S1068"-Remove this unused "textView1" private field.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Nsquid:S1068"-Remove this unused "textView2" private field.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Nsquid:S1068"-Remove this unused "textView3" private field.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Nsquid:S1068"-Remove this unused "textView4" private field.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Nsquid:S1068"-Remove this unused "textView5" private field.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Nsquid:S1068"-Remove this unused "textView6" private field.(ñ²©ÿÿÿÿÿ8ÑíÄøÎ,
+Isquid:S1199"-Extract this nested code block into a method.(¿¨É8ÑíÄøÎ,
+Isquid:S1199"-Extract this nested code block into a method.(ÆáØŽ8ÑíÄøÎ,
+Nsquid:S1199"-Extract this nested code block into a method.(ØÕœÕýÿÿÿÿ8ÑíÄøÎ,
+vsquid:S1450"ZRemove the "mCaptureBtn" field and declare it as a local variable in the relevant methods.(â£ƒž8ÑíÄøÎ,
+}squid:S1450"aRemove the "mShootPhotoModeBtn" field and declare it as a local variable in the relevant methods.(â£ƒž8ÑíÄøÎ,
+~squid:S1450"bRemove the "mRecordVideoModeBtn" field and declare it as a local variable in the relevant methods.(â£ƒž8ÑíÄøÎ,
+zsquid:S1450"YRemove the "mRecordBtn" field and declare it as a local variable in the relevant methods.(Þ€‰üÿÿÿÿ8ÑíÄøÎ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(°º”Æøÿÿÿÿ8ÑíÄøÎ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(›ÚüÐüÿÿÿÿ8ÑíÄøÎ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßÛú“8ÑíÄøÎ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8ÑíÄøÎ,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ïò±q8ÑíÄøÎ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Å†áÈþÿÿÿÿ8ÑíÄøÎ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åå¸Øÿÿÿÿÿ8ÑíÄøÎ,
+bsquid:S2259"AA "NullPointerException" could be thrown; "out" is nullable here.(Éç¸„ùÿÿÿÿ8ÑíÄøÎ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÑíÄøÎ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÑíÄøÎ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÑíÄøÎ,

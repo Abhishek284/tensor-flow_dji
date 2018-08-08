@@ -1,7 +1,7 @@
-#Mon Jul 30 16:16:52 IST 2018
-base.0=/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/24
-path.1=classes2.dex
+#Tue Jul 31 12:34:33 IST 2018
+base.0=/Users/abhishek/Documents/PROJECTS/ObjectDetect/rescuer-android/app/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/transforms/dexMerger/debug/24
+base.1=/Users/abhishek/Documents/PROJECTS/ObjectDetect/rescuer-android/app/build/intermediates/transforms/dexMerger/debug/1
