@@ -96,7 +96,7 @@ public class LegacyCameraConnectionFragment extends Fragment {
                 CameraConnectionFragment.chooseOptimalSize(
                     sizes, desiredSize.getWidth(), desiredSize.getHeight());
             parameters.setPreviewSize(previewSize.getWidth(), previewSize.getHeight());
-            camera.setDisplayOrientation(90);
+            camera.setDisplayOrientation(0);
             camera.setParameters(parameters);
             camera.setPreviewTexture(texture);
           } catch (IOException exception) {
@@ -105,9 +105,9 @@ public class LegacyCameraConnectionFragment extends Fragment {
 
           camera.setPreviewCallbackWithBuffer(imageListener);
           Camera.Size s = camera.getParameters().getPreviewSize();
-          camera.addCallbackBuffer(new byte[ImageUtils.getYUVByteSize(s.height, s.width)]);
+          camera.addCallbackBuffer(new byte[ImageUtils.getYUVByteSize(s.width, s.height)]);
 
-          textureView.setAspectRatio(s.height, s.width);
+          textureView.setAspectRatio(s.width, s.height);
 
           camera.startPreview();
         }

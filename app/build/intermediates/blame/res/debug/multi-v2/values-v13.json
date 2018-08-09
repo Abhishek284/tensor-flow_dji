@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sampada/Desktop/HACKATHON/tensorflow/tensorflow/contrib/lite/examples/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
+            "outputFile": "/Users/abhishek/Documents/PROJECTS/ObjectDetect/rescuer-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
             "map": [
                 {
-                    "source": "/home/sampada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/38d60299e0f16aea6d2b4c25d5d41803/res/values-v13/values-v13.xml",
+                    "source": "/Users/abhishek/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/fd3c1365692acf231c89da47dddae8f0/res/values-v13/values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

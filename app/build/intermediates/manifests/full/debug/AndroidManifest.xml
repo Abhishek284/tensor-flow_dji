@@ -77,7 +77,7 @@
         <activity
             android:name="org.tensorflow.demo.ClassifierActivity"
             android:label="@string/activity_name_classification"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -87,7 +87,7 @@
         <activity
             android:name="org.tensorflow.demo.DetectorActivity"
             android:label="@string/activity_name_detection"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -97,7 +97,7 @@
         <activity
             android:name="org.tensorflow.demo.SpeechActivity"
             android:label="@string/activity_name_speech"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
